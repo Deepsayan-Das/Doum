@@ -364,7 +364,7 @@ function Model() {
                 model2Ref.current.scale.set(6.5, 6.5, 6.5);
             }
         };
-        Thi
+        
         
         // Scale animations
         tl.fromTo([modelRef.current.scale, model2Ref.current.scale], {
