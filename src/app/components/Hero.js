@@ -1254,7 +1254,7 @@ const onSubmit = async (formData) => {
   console.log('Form data:', { firstName, lastName, Email, mobile ,Message });
   try{
     const {data , error} = await supabase.from('Waitlist').insert([{ FirstName: firstName,LastName: lastName, Email,phoneNo: mobile,Message: Message }])
-    toast.success("congrats you're in", { position: "top-right" });
+    
     if(error) {
       toast.error("Error submitting form!", { position: "top-right" });
       console.error(error.message);

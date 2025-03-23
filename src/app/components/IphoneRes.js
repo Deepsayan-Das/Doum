@@ -323,6 +323,48 @@ function Model() {
                 }
             }
         });
+        tlR3.scrollTrigger.onUpdate = (self) => {
+            if (modelRef.current && modelRef.current.visible) {
+                modelRef.current.scale.set(6.5, 6.5, 6.5);
+            }
+            if (model2Ref.current && model2Ref.current.visible) {
+                model2Ref.current.scale.set(6.5, 6.5, 6.5);
+            }
+        };
+        
+        tlR4.scrollTrigger.onUpdate = (self) => {
+            if (modelRef.current && modelRef.current.visible) {
+                modelRef.current.scale.set(6.5, 6.5, 6.5);
+            }
+            if (model2Ref.current && model2Ref.current.visible) {
+                model2Ref.current.scale.set(6.5, 6.5, 6.5);
+            }
+        };
+        
+        tlR5.scrollTrigger.onUpdate = (self) => {
+            if (modelRef.current && modelRef.current.visible) {
+                modelRef.current.scale.set(6.5, 6.5, 6.5);
+            }
+            if (model2Ref.current && model2Ref.current.visible) {
+                model2Ref.current.scale.set(6.5, 6.5, 6.5);
+            }
+        };
+        
+        // 4. Modify tl3 to ensure clean transition when entering the large scale section
+        tl3.scrollTrigger.onEnter = () => {
+            // Ensure model2 has the correct scale before starting this animation
+            if (model2Ref.current && model2Ref.current.visible) {
+                model2Ref.current.scale.set(6.5, 6.5, 6.5);
+            }
+        };
+        
+        tl3.scrollTrigger.onLeaveBack = () => {
+            // Reset the scale when scrolling back up
+            if (model2Ref.current && model2Ref.current.visible) {
+                model2Ref.current.scale.set(6.5, 6.5, 6.5);
+            }
+        };
+        Thi
         
         // Scale animations
         tl.fromTo([modelRef.current.scale, model2Ref.current.scale], {
@@ -362,24 +404,36 @@ function Model() {
             x: 0, y: 2*Math.PI/3, z: 0
         }, {
             x: 0, y: Math.PI/2, z: 0
+        }).set([modelRef.current.scale, model2Ref.current.scale], {
+            x: 6.5, y: 6.5, z: 6.5
         });
 
         tlR3.fromTo([modelRef.current.rotation, model2Ref.current.rotation], {
             x: 0, y: Math.PI/2, z: 0
         }, {
             x: 0, y: Math.PI/4, z: 0
+        }).set([modelRef.current.scale, model2Ref.current.scale], {
+            x: 6.5, y: 6.5, z: 6.5,
+            overwrite: "auto"
         });
 
         tlR4.fromTo([modelRef.current.rotation, model2Ref.current.rotation], {
             x: 0, y: Math.PI/4, z: 0
         }, {
             x: 0, y: 0, z: 0
+        }).set([modelRef.current.scale, model2Ref.current.scale], {
+            x: 6.5, y: 6.5, z: 6.5,
+            overwrite: "auto"
         });
 
         tlR5.fromTo([modelRef.current.rotation, model2Ref.current.rotation], {
             x: 0, y: 0, z: 0
         }, {
             x: 0, y: -Math.PI, z: 0
+        },)
+        .set([modelRef.current.scale, model2Ref.current.scale], {
+            x: 6.5, y: 6.5, z: 6.5,
+            overwrite: "auto"
         });
         
         // Final animations
