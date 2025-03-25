@@ -60,7 +60,7 @@ function refundAndCancellation() {
           <h2 className="text-2xl font-semibold mt-6 mb-2">4. Customer Support</h2>
           <p className="mb-4">
             For any queries or concerns regarding refunds or cancellations, please
-            reach out to our support team at <a className="text-blue-600" href="mailto:helpdesk@mydoum.com">helpdesk@mydoum.com</a>.
+            reach out to our support team at <a className="text-blue-600" href="mailto:info@doum.in">info@doum.in</a>.
           </p>
     
           <h2 className="text-2xl font-semibold mt-6 mb-2">5. Legal Disclaimer</h2>

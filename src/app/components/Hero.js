@@ -1381,15 +1381,16 @@ useGSAP(() => {
 
   htl.from(".circleConMob", {
     scale: 0,
+    opacity: 0,
     duration: 1,
     ease: "back.out(1.7)"    // Added easing for pop effect
   });
 
-  htl.from(".circleConMob", {
-    opacity: 0,
-    duration: 1,
-    stagger: 0.2             // Added stagger for sequential fade-in
-  });
+  // htl.from(".circleConMob", {
+  //   opacity: 0,
+  //   duration: 1,
+  //   stagger: 0.2             // Added stagger for sequential fade-in
+  // });
 
   
 });
@@ -2328,7 +2329,7 @@ useGSAP(() => {
               </div>  
              <div className='contact-info h-[8%] w-[30%] mr-[39vh] mb-[0vh] mt-[-12vh] '>
              
-             <a href='mailto:helpdesk@mydoum.com' className='font-glacial text-[#e1eefd] text-2xl font-light'> helpdesk@mydoum.com</a>
+             <a href='mailto:info@doum.in' className='font-glacial text-[#e1eefd] text-2xl font-light'> info@doum.in</a>
              </div>
              <div className='whatsapp h-[5%] w-[35%] mr-[17vh] mt-[-10vh]' >
               <a href='https://wa.me/918967908081' className='font-glacial text-[#e1eefd] text-2xl font-thin whitespace-nowrap flex items-center justify-start gap-4 ml-[-13vh]   '>Need help? Message us! <div><BsWhatsapp color='#e1eefd' /></div>  </a> </div>
@@ -2518,7 +2519,7 @@ useGSAP(() => {
    </div>
    <div className='col3 h-auto w-full md:w-[20%] flex flex-col justify-evenly items-center md:items-start mt-6 md:mt-20 px-4'>
       <h1 className='text-[#ffffff] md:text-[#063281]  mega_shadow font-glacial font-bold text-xl mb-4'>Get in Touch</h1>
-      <a href='mailto:helpdesk@mydoum.com' className='font-light font-glacial text-md text-[#ffffff] md:text-[#063281]  mega_shadow mb-2'>helpdesk@mydoum.com</a>
+      <a href='mailto:info@doum.in' className='font-light font-glacial text-md text-[#ffffff] md:text-[#063281]  mega_shadow mb-2'>info@doum.in</a>
       <h1 className='text-[#ffffff] md:text-[#063281]  mega_shadow font-glacial font-bold text-xl mt-4 mb-2'>Enquire</h1>
       <Link href='/' className='font-light font-glacial text-md text-[#ffffff] md:text-[#063281]  mega_shadow mb-2'>+91 8967908081</Link>
       <h1 className='text-[#ffffff] md:text-[#063281]  mega_shadow font-glacial font-bold text-xl mt-4 mb-2'>Support</h1>

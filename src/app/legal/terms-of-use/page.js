@@ -50,7 +50,7 @@ function termsOfUse() {
               <Section title='9.TERMINATION' content={['	DOUM reserves the right to terminate or suspend user accounts without prior notice if found in violation of these Terms.','	Users may delete their accounts by contacting DOUM support.','	Upon termination, any pending service requests will be canceled, and any outstanding dues must be settled.']}/>
               <Section title='10. DISPUTE RESOLUTION' content={['	Disputes will first be resolved through negotiation. If unresolved, disputes will be subject to arbitration in Kolkata, West Bengal.','	Users agree to waive class action rights and must file individual claims.']}/> 
               <Section title='11. MODIFICATIONS TO TERMS' content={['1.	DOUM may update these Terms periodically. Continued use of the Platform constitutes acceptance of revised Terms.','2.	Users will be notified of significant changes via email or in-app notifications.']}/>
-              <Section title='12. CONTACT INFORMATION' content={['For any questions or concerns regarding these Terms, contact us at:Email: helpdesk@mydoum.com']} />
+              <Section title='12. CONTACT INFORMATION' content={['For any questions or concerns regarding these Terms, contact us at:Email: info@doum.in']} />
 
             </div>
           </div>

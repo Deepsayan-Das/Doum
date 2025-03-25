@@ -75,12 +75,14 @@ function blog() {
         
         At DOUM, we are always looking for strategic partnerships that drive innovation, accelerate growth, and refine our development process. This is a major step forward in our journey to revolutionize home services. <br/> <br/> <br/>
 
-Stay tuned—exciting times ahead!
+
         </div>
         <div className='w-[80%] md:w-[32.5vw] h-[30vh]  rounded-2xl self-center md:self-start mt-[35vh] md:mt-[-20vh] mx-[5vw] md:mx-[5vw]' style={{ backgroundImage: 'url(/microsoftB.webp)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
 
         </div>
         <Link href='/'> <div className='flex whitespace-nowrap text-4xl font-medium self-start mt-[8vh] h-[5vh] w-[10vw] ml-[-45vw] text-[#18375d]'>
+
+        
             <div><FaArrowCircleLeft size={40} /> </div> 
        
         </div>

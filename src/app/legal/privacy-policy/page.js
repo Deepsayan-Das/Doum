@@ -69,7 +69,7 @@ function privacyPolicy() {
             <ul className="list-disc list-inside mb-4">
               <li>Access & Correction: You may update or modify your personal information via the Platform.</li>
               <li>Opt-Out: You can opt out of promotional emails and marketing communications.</li>
-              <li>Data Deletion: You may request the deletion of your account and associated data by contacting our support team at helpdesk@mydoum.com.</li>
+              <li>Data Deletion: You may request the deletion of your account and associated data by contacting our support team at info@doum.in.</li>
             </ul>
             <p className="mb-4 font-semibold">7. THIRD-PARTY LINKS & SERVICES</p>
             <p className="mb-4">Our Platform may contain links to third-party websites or services. This Privacy Policy does not govern those external sites, and we encourage users to review their privacy policies before providing any personal information.</p>
@@ -82,7 +82,7 @@ Before initiating any legal proceedings, all parties—including customers, part
             <p className="mb-4 font-semibold">10. CONTACT US</p>
             <p className="mb-4">For any questions or concerns regarding this Privacy Policy, you can contact us at:</p>
             <p className="mb-4">DOUM Privacy Team</p>
-            <p className="mb-4">Email: helpdesk@mydoum.com</p>
+            <p className="mb-4">Email: info@doum.in</p>
           </div>
         </div>
         </>
